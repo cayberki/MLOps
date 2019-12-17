@@ -11,8 +11,8 @@ variables:
 
   #Configuration information
   AML_COMPUTE_SKU: 'STANDARD_DS4_V2'
-  AML_COMPUTE_CLUSTER: 'amlcluster'
-  AKS_CLUSTER: 'akscluster'
+  AML_COMPUTE_CLUSTER: 'cayberki-amlcluster'
+  AKS_CLUSTER: 'cayberki-akscluster'
   LOCATION: 'eastus2'
   MODEL_NAME: 'risk-model'
   DATASET_FILE_NAME: 'german_credit_data.csv'
